@@ -14,8 +14,6 @@ TextMate.save_current_document
 cmd = "ledger"
 args = ["--file=#{ENV['TM_FILEPATH']}","bal"]
 
-out = ""
-
 TextMate::Executor.run(cmd, args) do |str, type|
   "&lt;span&gt;#{htmlize(str)}&lt;/span&gt;" if type == :out
 end
