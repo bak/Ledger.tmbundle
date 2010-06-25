@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Ledger</string>
+	<key>uuid</key>
+	<string>C5CE8D45-3BF8-44C4-B7FD-C06AD992BF3D</string>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require ENV["TM_SUPPORT_PATH"] + "/lib/tm/executor"
+require ENV["TM_SUPPORT_PATH"] + "/lib/tm/save_current_document"
+
+TextMate.save_current_document
+
+cmd = "ledger"
+args = ["--file=#{ENV['TM_FILEPATH']}","bal"]
+
+out = ""
+
+TextMate::Executor.run(cmd, args) do |str, type|
+  "&lt;span&gt;#{htmlize(str)}&lt;/span&gt;" if type == :out
+end
+
+
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Show balance</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.ledger</string>
+	<key>uuid</key>
+	<string>A59E4C3D-C62A-471F-BFB3-2FBF03C94A54</string>
+</dict>
+</plist>
