@@ -48,7 +48,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s+([\w\:\_\-]+)\s+([\-\$\d\.]+)</string>
+			<string>^\s+([\w\:\s\_\-]+)\s+([\-\$\£\¥\฿\¢\₡\₢\₣\₤\₥\₦\₧\₨\₩\₪\₫\€\₭\₮\₯\¤\₠\₰\₱\d\.\,\_]+.*)$</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -56,11 +56,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.class.variant</string>
+					<string>keyword</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s+([\w\:]+)\s+$</string>
+			<string>^\s+([\w\:\s]+)\s+?$</string>
 		</dict>
 		<dict>
 			<key>match</key>
