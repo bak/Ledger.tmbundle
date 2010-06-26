@@ -39,6 +39,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
+					<string>entity.name.type</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(~.*?)$</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
 					<string>keyword</string>
 				</dict>
 				<key>2</key>
