@@ -22,12 +22,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type</string>
+					<string>string.other</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>string</string>
+					<string>markup.italic</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -39,12 +39,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type</string>
+					<string>punctuation.section</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.type</string>
+					<string>constant.other</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -56,12 +56,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type</string>
+					<string>punctuation.section</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.type</string>
+					<string>string.regexp</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -73,12 +73,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword</string>
+					<string>markup.bold</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.amount</string>
+					<string>variable.other</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -90,7 +90,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword</string>
+					<string>markup.bold</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -107,7 +107,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter</string>
+					<string>variable.other</string>
 				</dict>
 			</dict>
 			<key>match</key>
