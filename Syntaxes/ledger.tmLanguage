@@ -48,7 +48,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\t([\w\:\_\-]+)\s+([\-\$\d\.]+)</string>
+			<string>^\s+([\w\:\_\-]+)\s+([\-\$\d\.]+)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -60,7 +60,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\t([\w\:]+)\s+$</string>
+			<string>^\s+([\w\:]+)\s+$</string>
 		</dict>
 		<dict>
 			<key>match</key>
