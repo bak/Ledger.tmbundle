@@ -48,7 +48,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s+([\w\:\s\_\-]+)\s+([\-\$\£\¥\฿\¢\₡\₢\₣\₤\₥\₦\₧\₨\₩\₪\₫\€\₭\₮\₯\¤\₠\₰\₱\d\.\,\_]+.*)$</string>
+			<string>^\s+([\(\)\w\:\s\_\-]+)\s+([\-\$\£\¥\฿\¢\₡\₢\₣\₤\₥\₦\₧\₨\₩\₪\₫\€\₭\₮\₯\¤\₠\₰\₱\d\.\,\_]+.*)$</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -60,7 +60,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s+([\w\:\s\_\-]+)[\s]*?$</string>
+			<string>^\s+([\(\)\w\:\s\_\-]+)\s*?$</string>
 		</dict>
 		<dict>
 			<key>match</key>
