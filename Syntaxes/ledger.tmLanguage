@@ -97,6 +97,23 @@
 			<string>^\s+([\(\)\w\:\s\_\-]+)\s*?$</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(tag|end tag)\s(.*)</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>(\;.+)$</string>
 			<key>name</key>
