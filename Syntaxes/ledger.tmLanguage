@@ -60,7 +60,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s+([\w\:\s]+)\s+?$</string>
+			<string>^\s+([\w\:\s\_\-]+)[\s]*?$</string>
 		</dict>
 		<dict>
 			<key>match</key>
