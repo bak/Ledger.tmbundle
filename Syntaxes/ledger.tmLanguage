@@ -31,7 +31,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^(\d{4}[/-]\d{2}[/-]\d{2})\s+(.+)$</string>
+			<string>^(\d{4}[/-]\d{2}[/-]\d{2}.*?)\s+(.+)$</string>
 		</dict>
 		<dict>
 			<key>captures</key>
