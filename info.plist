@@ -4,6 +4,14 @@
 <dict>
 	<key>name</key>
 	<string>Ledger</string>
+	<key>ordering</key>
+	<array>
+		<string>AD9321FB-CE33-426D-9F63-1DE432AD3AF3</string>
+		<string>59EB1611-94A4-45C4-AB84-11219472ABF7</string>
+		<string>0C810596-CAD0-417F-BE92-284C47AAD6CC</string>
+		<string>66ECAE19-1421-45CE-AA25-5019FECDB1C9</string>
+		<string>A59E4C3D-C62A-471F-BFB3-2FBF03C94A54</string>
+	</array>
 	<key>uuid</key>
 	<string>C5CE8D45-3BF8-44C4-B7FD-C06AD992BF3D</string>
 </dict>
