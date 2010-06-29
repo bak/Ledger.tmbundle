@@ -4,13 +4,13 @@
 <dict>
 	<key>content</key>
 	<string>${1:Account} \$${2:0}
-acct$0</string>
+e$0</string>
 	<key>name</key>
-	<string>Add Account</string>
+	<string>Entry</string>
 	<key>scope</key>
 	<string>source.ledger</string>
 	<key>tabTrigger</key>
-	<string>acct</string>
+	<string>e</string>
 	<key>uuid</key>
 	<string>0C810596-CAD0-417F-BE92-284C47AAD6CC</string>
 </dict>
