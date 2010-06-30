@@ -22,7 +22,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>string.other</string>
+					<string>string.other.date</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -32,12 +32,12 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>string.other</string>
+					<string>string.other.edate</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>markup.italic</string>
+					<string>markup.italic.desc</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -49,12 +49,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section</string>
+					<string>punctuation.section.period</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>constant.other</string>
+					<string>constant.other.expression</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -66,12 +66,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section</string>
+					<string>punctuation.section.automated</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>string.regexp</string>
+					<string>string.regexp.expression</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -83,12 +83,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>markup.bold</string>
+					<string>markup.bold.account</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.other</string>
+					<string>variable.other.amount</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -100,7 +100,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>markup.bold</string>
+					<string>markup.bold.account</string>
 				</dict>
 			</dict>
 			<key>match</key>
