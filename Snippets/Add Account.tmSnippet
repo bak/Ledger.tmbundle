@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:Account} \$${2:0}
+	<string>${1:Account}  \$${2:0}
 e$0</string>
 	<key>name</key>
 	<string>Entry</string>
